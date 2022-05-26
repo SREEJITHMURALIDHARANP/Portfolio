@@ -1,0 +1,89 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    /* To fix the elements a fixed position */
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    margin-top: 0px;
+}
+.links{
+    /* To display elements in a horizontal line */
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: brown;
+    text-shadow: 1px 1px  black;
+}
+/* Pseudo Classes syntax: selector:pseudo-class{property:value} */
+/* Hover Psuedo Class to give a enlarged element */
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+html{
+    /* To add a particular scrolling effect */
+    scroll-behavior:smooth;
+}
+#welcome{
+    background: linear-gradient(rgb(42, 161, 165),#00ffbb);
+}
+.profile{
+    border-radius: 50%;
+    margin-top: 50px;
+}
+h1{
+    font-size: 35px;
+    font-weight: 400;
+    font-family: 'Bebas Neue', cursive;
+}
+#name{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: 'Bebas Neue', cursive;
+}
+h2{
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Russo One', sans-serif;
+}
+#bio{
+    padding: 50px;
+    font-family: 'Russo One', sans-serif;
+}*
+.line{
+    height: 7px;
+    background-color: brown;
+    width: 70px;
+    margin: auto;
+}
+#writings a{
+    text-shadow: none;
+    text-decoration: underline;
+}
+#writings a:hover{
+    color: darkblue;
+}
+#contact iframe{
+    width: 100%;
+}
+.contact_1 a{
+    display: inline;
+}
+.contact_1 a{
+    text-shadow: none;
+    color: red;
+}
+.contact_1 h3{
+    display: inline;
+    font-size: 30px;
+    color: red;
+}
+
